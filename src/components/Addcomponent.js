@@ -47,12 +47,12 @@ class Addcomponent extends Component {
       <div>
         {isAdd ? (
           <div>
-            <button style={buttonStyle} onClick={this.handleInc}>
-              +
-            </button>
-            {count}
             <button style={buttonStyle} onClick={this.handleDec}>
               -
+            </button>
+            {count}
+            <button style={buttonStyle} onClick={this.handleInc}>
+              +
             </button>
           </div>
         ) : (
